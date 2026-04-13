@@ -5,6 +5,8 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import os
+import nltk
+nltk.download('stopwords')
 
 import streamlit as st
 
