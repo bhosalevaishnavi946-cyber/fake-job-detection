@@ -17,7 +17,7 @@ st.markdown(
 
 # Center button
 if st.button("Start Detection"):
-    st.switch_page("pages/fake_job.py")
+    st.switch_page("fake_job.py")
 
 # ---------------- FEATURES ----------------
 st.markdown("## 🚀 Features")
@@ -56,3 +56,5 @@ st.markdown(
     "<p style='text-align:center;'>🎓 Final Year Project | Fake Job Detection System</p>",
     unsafe_allow_html=True
 )
+import nltk
+nltk.download('stopwords')
